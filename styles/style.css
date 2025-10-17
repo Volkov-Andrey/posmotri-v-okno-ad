@@ -1,6 +1,3 @@
-
-/* Global styles */
-
 *,
 *::before,
 *::after {
@@ -34,7 +31,6 @@ video {
   width: 100%;
 }
 
-/* Utility classes */
 
 .visually-hidden {
   position: absolute;
@@ -46,7 +42,6 @@ video {
   white-space: nowrap;
 }
 
-/* Styles */
 
 .page {
   display: flex;
@@ -226,8 +221,6 @@ video {
   color: #545050;
 }
 
-/* scrollbar-width removes scrollbar, but only works in Firefox */
-/* https://caniuse.com/?search=scrollbar-width */
 .content__list {
   position: relative;
   overflow-y: scroll;
@@ -235,8 +228,6 @@ video {
   scrollbar-width: none;
 }
 
-/* Removes scrollbar for most other browsers */
-/* https://caniuse.com/?search=webkit-scrollbar */
 .content__list::-webkit-scrollbar {
   display: none;
 }
